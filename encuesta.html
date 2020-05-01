@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Resident Evil 3 Encuesta/CSS/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="../Resident Evil 3 Encuesta/Imagenes/RE3-logo.ico">
+    <title>RE3 Encuesta!</title>
+</head>
+<body id="main">
+    <div class="fondo-color">
+        <header>
+            <div class="logo"><img class="logo-2" src="../Resident Evil 3 Encuesta/Imagenes/re3_logo.png" alt=""></div>
+            <h1 id="title" class="titulo">Encuesta para Old-Fans</h1>
+            <p id="description">Queremos saber tu opinion del titulo</p>
+        </header>
+        <form id="survey-form" class="encuesta">
+            <label id="name-label">Nombre<br><input id="name" class="caja-negra" type="text" placeholder="Ingrese su Nombre" required/></label><br><br>
+            <label id="email-label">Correo<br><input id="email" class="caja-negra" type="email" placeholder="Ingrese su Correo" required/></label><br><br>
+            <label id="number-label">Edad (opcional)<br><input id="number" class="caja-negra" type="number" min="0" max="99" placeholder="Edad" required/></label>
+            <p>Te gusto el Titulo?</p>
+            <label>Si  <input type="radio" value="attribute" name="si-no" checked/></label>
+            <label>No  <input type="radio" value="attribute" name="si-no"/></label>
+            <label>Si/No... Nose  <input type="radio" value="attribute" name="si-no"/></label>
+            <p>En cuanto tiempo paso el titulo?</p>
+            <label><input type="radio" value="attribute" name="si-no-2" checked> De 1:30 hrs a 3:00 hrs</label><br>
+            <label><input type="radio" value="attribute" name="si-no-2"/> De 2:30 hrs a 5:00 hrs</label><br>
+            <label><input type="radio" value="attribute" name="si-no-2"/> De 5:00 hrs a 7:00 hrs</label>
+            <p>En donde probo el juego?</p>
+            <label><input class="prueba" type="checkbox" value="attribute"> PC Master Race</label>
+            <label><input type="checkbox" value="attribute"> Xbox One</label>
+            <label><input type="checkbox" value="attribute"> PlayStation 4</label>
+            <p>En que formato lo probo?</p>
+            <label><input type="checkbox" value="attribute"> Fisico</label>
+            <label><input type="checkbox" value="attribute"> Digital</label>
+            <p>En que dificultad fui tu primera experiencia?</p>
+            <select name="" id="dropdown" class="caja-negra" required>
+                <option disabled selected value>Seleccione una opción</option>
+                <option class="caja-negra" value="Asistido">Asistido</option>
+                <option class="caja-negra" value="Estándar">Estándar</option>
+                <option class="caja-negra" value="Hardcore">Hardcore</option>
+            </select>
+            <p>Logro desbloquear las demas dificultades? si es asi, seleccione cuales fueron</p>
+            <select name="" id="" class="caja-negra" required>
+                <option disabled selected value>Seleccione una opción</option>
+                <option class="caja-negra" value="Pesadilla">Pesadilla</option>
+                <option class="caja-negra" value="Infierno">Infierno</option>
+                <option class="caja-negra" value="Ambas">Ambas</option>
+            </select>
+            <p>Seleccione del 1 al 5 que le parecio las mecanicas del juego:</p>
+            <label>1 <input type="radio" value="attribute" name="si-no-3" checked/></label>
+            <label>2 <input type="radio" value="attribute" name="si-no-3"/></label>
+            <label>3 <input type="radio" value="attribute" name="si-no-3"/></label>
+            <label>4 <input type="radio" value="attribute" name="si-no-3"/></label>
+            <label>5 <input type="radio" value="attribute" name="si-no-3"/></label>
+            <p>Que te parecio la historia?</p>
+            <select name="" id="" class="caja-negra" required>
+                <option disabled selected value>Seleccione una opción</option>
+                <option class="caja-negra" value="Buena">Buena</option>
+                <option class="caja-negra" value="Mala">Mala</option>
+                <option class="caja-negra" value="Una puta mierda!!">Una puta mierda!!</option>
+            </select>
+            <p>Que te parecio el rediseño de los personajes?</p>
+            <label><input type="radio" value="attribute" name="seleccion" checked/> Buena</label><br>
+            <label><input type="radio" value="attribute" name="seleccion"/> Mala</label><br>
+            <label><input type="radio" value="attribute" name="seleccion"/> Jill y Nemesis Bien, Carlos una mierda??</label>
+            <p>Si se extendiera el modo historia con un DLC, que segmentos el juego clasico te gustaria que regresaran?</p>
+            <label><input type="checkbox" value="attribute"/> El edificio en llamas del Periodico de la ciudad</label><br>
+            <label><input type="checkbox" value="attribute"/> La torre del Reloj</label><br>
+            <label><input type="checkbox" value="attribute"/> El parque central de la ciudad</label><br>
+            <label><input type="checkbox" value="attribute"/> El cementerio</label><br>
+            <label><input type="checkbox" value="attribute"/> La fabrica muerta</label>
+            <p>Que te parecio el final del juego?</p>
+            <select name="" id="" class="caja-negra" required>
+                <option disabled selected value>Seleccione una opción</option>
+                <option class="caja-negra" value="Bueno">Bueno</option>
+                <option class="caja-negra" value="Malo">Malo</option>
+                <option class="caja-negra" value="Interesante">Interesante</option>
+            </select>
+            <p>Tiene una opinion sobre el titulo?<br>Puedes escribirnos lo que opina:</p>
+            <textarea name="" id="caja" cols="30" rows="5" placeholder="Ingrese su comentario aqui..." required></textarea><br><br>
+            <label><input id="submit" type="submit" value="Enviar"/></label>
+        </form>
+    </div>
+    <script src="../Formulario/bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', cursive;
+    color: #ffffff;
+    font-size: 25px;
+    text-shadow: 2px 2px #1a1818;
+}
+
+.logo-2 {
+    width: 100%;
+    margin-top: 50px;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+
+input[type=radio] {
+    transform: scale(1.5);
+}
+
+header, form {
+    width: 55%;
+    height: auto;
+    max-width: 1000px;
+    margin: auto auto;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 55px;
+    padding: 25px;
+}
+
+p {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.caja-negra {
+    color: #000000;
+    width: 90%;
+    padding: 5px;
+    border-radius: 5px;
+    text-shadow: 2px 2px #f8f6f6;
+}
+
+.encuesta {
+    background-color: rgba(96, 95, 95, 0.3);
+    padding: 25px;
+    border-radius: 15px;
+}
+
+body {
+    background: url(../Imagenes/resident-evil-remake.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#caja {
+    width: 90%;
+    min-height: 120px;
+    resize: vertical;
+    padding: 5px;
+    color: #000000;
+    border-radius: 2px;
+    text-shadow: 2px 2px #f8f6f6;
+}
+
+#submit {
+    color: #000000;
+    width: 92%;
+    border-radius: 2px;
+    text-shadow: 2px 2px #f8f6f6;
+}
