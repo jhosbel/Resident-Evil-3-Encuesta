@@ -7,6 +7,13 @@
     text-shadow: 2px 2px #1a1818;
 }
 
+body {
+    background: url('../Imagenes/resident-evil-remake.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .logo-2 {
     width: 100%;
     margin-top: 50px;
@@ -53,13 +60,6 @@ p {
     background-color: rgba(96, 95, 95, 0.3);
     padding: 25px;
     border-radius: 15px;
-}
-
-body {
-    background: url(../Imagenes/resident-evil-remake.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 #caja {
