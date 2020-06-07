@@ -57,7 +57,7 @@ p {
 
 body {
     background: url(../Imagenes/resident-evil-remake.jpg);
-    background-size: 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -77,4 +77,51 @@ body {
     width: 92%;
     border-radius: 2px;
     text-shadow: 2px 2px #f8f6f6;
+}
+
+@media (max-width: 800px) {
+
+    body {
+        background-position: center;
+    }
+
+    header, form {
+        width: 70%;
+        height: auto;
+        max-width: 1000px;
+        margin: auto auto;
+    }
+}
+
+@media (max-width: 500px) {
+    header, form {
+        width: 100%;
+    }
+
+    .logo-2 {
+        margin-left: 25px;
+    }
+
+    .titulo {
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 360px) {
+    * {
+        font-size: 15px;
+    }
+
+    .logo-2 {
+        margin-left: 25px;
+    }
+
+    .titulo {
+        font-size: 35px;
+        margin-left: 30px;
+    }
+
+    #description {
+        margin-left: 35px;
+    }
 }
